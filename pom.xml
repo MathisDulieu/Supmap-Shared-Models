@@ -14,15 +14,14 @@
 	<name>shared-models</name>
 	<description>Shared models for Supmap microservices</description>
 
-	<!-- Ajout de la configuration pour Nexus -->
 	<distributionManagement>
 		<repository>
 			<id>nexus-releases</id>
-			<url>${env.NEXUS_URL}/repository/maven-releases/</url>
+			<url>https://nexus3-production.up.railway.app/repository/maven-releases/</url>
 		</repository>
 		<snapshotRepository>
 			<id>nexus-snapshots</id>
-			<url>${env.NEXUS_URL}/repository/maven-snapshots/</url>
+			<url>https://nexus3-production.up.railway.app/repository/maven-snapshots/</url>
 		</snapshotRepository>
 	</distributionManagement>
 
