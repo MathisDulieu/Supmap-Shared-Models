@@ -15,5 +15,8 @@ public class NavigationPreferences {
     private boolean avoidTraffic;
 
     @Builder.Default
+    private int proximityAlertDistance = 500;
+
+    @Builder.Default
     private TransportMode preferredTransportMode = TransportMode.CAR;
 }

@@ -11,7 +11,4 @@ import lombok.Setter;
 @EqualsAndHashCode
 public class NotificationPreferences {
     private boolean emailEnabled;
-
-    @Builder.Default
-    private int proximityAlertDistance = 500;
 }
