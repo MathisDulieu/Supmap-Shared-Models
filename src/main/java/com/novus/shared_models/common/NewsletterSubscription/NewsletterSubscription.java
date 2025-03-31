@@ -1,4 +1,4 @@
-package com.novus.shared_models.NewsletterSubscription;
+package com.novus.shared_models.common.NewsletterSubscription;
 
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

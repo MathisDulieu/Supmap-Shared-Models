@@ -1,4 +1,4 @@
-package com.novus.shared_models.User;
+package com.novus.shared_models.common.User;
 
 public enum UserStatus {
     ACTIVE,

@@ -1,4 +1,4 @@
-package com.novus.shared_models.Newsletter;
+package com.novus.shared_models.common.Newsletter;
 
 public enum NewsletterType {
     TRAFFIC_UPDATES,

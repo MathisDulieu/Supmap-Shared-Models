@@ -1,4 +1,4 @@
-package com.novus.shared_models.Location;
+package com.novus.shared_models.common.Location;
 
 public enum LocationType {
     HOME,

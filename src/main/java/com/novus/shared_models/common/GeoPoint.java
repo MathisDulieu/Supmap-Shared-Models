@@ -1,4 +1,4 @@
-package com.novus.shared_models;
+package com.novus.shared_models.common;
 
 import lombok.Builder;
 import lombok.EqualsAndHashCode;

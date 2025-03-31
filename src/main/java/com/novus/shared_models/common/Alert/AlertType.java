@@ -1,4 +1,4 @@
-package com.novus.shared_models.Alert;
+package com.novus.shared_models.common.Alert;
 
 public enum AlertType {
     ACCIDENT,

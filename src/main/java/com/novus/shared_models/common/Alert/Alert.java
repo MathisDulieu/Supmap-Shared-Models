@@ -1,6 +1,6 @@
-package com.novus.shared_models.Alert;
+package com.novus.shared_models.common.Alert;
 
-import com.novus.shared_models.GeoPoint;
+import com.novus.shared_models.common.GeoPoint;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

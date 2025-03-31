@@ -1,4 +1,4 @@
-package com.novus.shared_models.Newsletter;
+package com.novus.shared_models.common.Newsletter;
 
 import lombok.*;
 import org.springframework.data.annotation.Id;
