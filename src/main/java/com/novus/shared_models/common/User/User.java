@@ -70,5 +70,6 @@ public class User {
     private boolean isValidEmail;
 
     private Date lastLoginDate;
+    private Date lastActivityDate;
     private String lastLoginIp;
 }
