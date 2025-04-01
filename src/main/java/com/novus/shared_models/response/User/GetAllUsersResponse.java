@@ -13,5 +13,6 @@ import java.util.List;
 @EqualsAndHashCode
 public class GetAllUsersResponse {
     private List<User> users;
+    private int totalPages;
     private String error;
 }
