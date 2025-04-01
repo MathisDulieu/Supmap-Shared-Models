@@ -15,6 +15,9 @@ public class NavigationPreferences {
     private boolean avoidTraffic;
 
     @Builder.Default
+    private boolean showUsers = true;
+
+    @Builder.Default
     private int proximityAlertDistance = 500;
 
     @Builder.Default

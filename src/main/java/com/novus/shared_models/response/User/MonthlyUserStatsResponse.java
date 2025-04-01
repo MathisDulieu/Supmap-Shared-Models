@@ -8,7 +8,8 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class GetAdminDashboardDataResponse {
-    private int totalUsers;
-    private int usersRegisteredThisMonth;
+public class MonthlyUserStatsResponse {
+    private String month;
+    private Integer newUsers;
+    private Integer totalUsers;
 }

@@ -8,11 +8,14 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
-public class GetAuthenticatedUserDetailsUserStatsResponse {
+public class UserStatsResponse {
     private int totalReportsSubmitted;
     private int validatedReports;
     private int totalRoutesCompleted;
     private int totalDistanceTraveled;
     private int totalTimeSaved;
     private int reportsValidatedByOthers;
+    private String rank;
+    private String rankImage;
+    private String error;
 }

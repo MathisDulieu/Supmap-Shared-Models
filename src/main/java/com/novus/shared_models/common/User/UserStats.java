@@ -20,6 +20,10 @@ public class UserStats {
     private int totalTimeSaved;
 
     @Builder.Default
+    private UserRank rank = UserRank.NAVIGATOR_NOVICE;
+    private String rankImage;
+
+    @Builder.Default
     private Date lastActiveDate = new Date();
 
     @Builder.Default

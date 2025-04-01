@@ -1,6 +1,6 @@
 package com.novus.shared_models.request.Authentication;
 
-import com.novus.shared_models.common.GeoPoint;
+import com.novus.shared_models.GeoPoint;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;

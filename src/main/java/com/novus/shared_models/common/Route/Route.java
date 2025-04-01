@@ -1,4 +1,4 @@
-package com.novus.shared_models.common.Alert;
+package com.novus.shared_models.common.Route;
 
 import com.novus.shared_models.GeoPoint;
 import lombok.Builder;
@@ -14,24 +14,21 @@ import java.util.Date;
 @Setter
 @Builder
 @EqualsAndHashCode
-@Document(collection = "ALERTS")
-public class Alert {
+@Document(collection = "ROUTES")
+public class Route {
 
     @Id
     private String id;
-
-    private AlertType type;
-    private GeoPoint location;
-    private String roadName;
-    private String description;
+    private String startAddress;
+    private String endAddress;
+    private GeoPoint startPoint;
+    private GeoPoint endPoint;
+    private Double kilometersDistance;
+    private Integer estimatedDurationInSeconds;
 
     @Builder.Default
     private Date createdAt = new Date();
 
-    @Builder.Default
-    private Date updatedAt = new Date();
-
-    private Date expiresAt;
-    private String reportedByUserId;
+    private String userId;
 
 }

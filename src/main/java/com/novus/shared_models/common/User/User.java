@@ -1,6 +1,6 @@
 package com.novus.shared_models.common.User;
 
-import com.novus.shared_models.common.GeoPoint;
+import com.novus.shared_models.GeoPoint;
 import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
@@ -42,7 +42,10 @@ public class User {
     private Date updatedAt = new Date();
 
     @Builder.Default
-    private UserStatus status = UserStatus.ACTIVE;
+    private UserStatus todayStatus = UserStatus.ACTIVE;
+
+    @Builder.Default
+    private UserStatus monthStatus = UserStatus.ACTIVE;
 
     private GeoPoint lastKnownLocation;
 
