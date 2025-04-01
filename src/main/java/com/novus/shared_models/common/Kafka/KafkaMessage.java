@@ -16,4 +16,5 @@ public class KafkaMessage {
     private Map<String, String> request;
     private String ipAddress;
     private User authenticatedUser;
+    private String timeStamp;
 }
