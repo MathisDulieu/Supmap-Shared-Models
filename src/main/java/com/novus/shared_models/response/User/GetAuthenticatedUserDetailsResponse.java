@@ -18,8 +18,6 @@ public class GetAuthenticatedUserDetailsResponse {
     private String email;
     private String profileImage;
     private String role;
-    private String rank;
-    private String rankImage;
     private GeoPoint lastKnownLocation;
     private NavigationPreferences navigationPreferences;
     private List<UserDetailsLocationResponse> favoriteLocations;

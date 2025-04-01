@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.novus</groupId>
 	<artifactId>shared-models</artifactId>
-	<version>1.1.1</version>
+	<version>1.1.2</version>
 	<name>shared-models</name>
 	<description>Shared models for Supmap microservices</description>
 
