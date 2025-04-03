@@ -9,6 +9,8 @@ import lombok.*;
 @AllArgsConstructor
 @EqualsAndHashCode
 public class ShareRouteRequest {
-    private Double latitude;
-    private Double longitude;
+    private Double startLatitude;
+    private Double startLongitude;
+    private Double endLatitude;
+    private Double endLongitude;
 }
