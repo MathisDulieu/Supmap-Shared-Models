@@ -1,10 +1,7 @@
 package com.novus.shared_models.common.Kafka;
 
 import com.novus.shared_models.common.User.User;
-import lombok.Builder;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.Setter;
+import lombok.*;
 
 import java.util.Map;
 
@@ -12,6 +9,8 @@ import java.util.Map;
 @Setter
 @Builder
 @EqualsAndHashCode
+@NoArgsConstructor
+@AllArgsConstructor
 public class KafkaMessage {
     private Map<String, String> request;
     private String ipAddress;
