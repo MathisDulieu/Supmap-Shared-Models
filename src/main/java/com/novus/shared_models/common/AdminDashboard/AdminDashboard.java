@@ -8,6 +8,7 @@ import lombok.Builder;
 import lombok.EqualsAndHashCode;
 import lombok.Getter;
 import lombok.Setter;
+import org.springframework.data.annotation.Id;
 import org.springframework.data.mongodb.core.mapping.Document;
 
 import java.util.ArrayList;
@@ -21,6 +22,9 @@ import java.util.Map;
 @EqualsAndHashCode
 @Document(collection = "ADMIN_DASHBOARD")
 public class AdminDashboard {
+
+    @Id
+    private String id;
 
     @Builder.Default
     private Map<Integer, Double> appRatingByNumberOfRate = Map.of(0, 0.0);

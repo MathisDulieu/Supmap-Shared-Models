@@ -24,6 +24,7 @@ public class GetAuthenticatedUserDetailsResponse {
     private UserStatsResponse stats;
     private NotificationPreferences notificationSettings;
     private boolean isValidEmail;
+    private boolean hasVoted;
 
     private String error;
 }

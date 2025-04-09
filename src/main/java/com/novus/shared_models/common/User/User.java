@@ -68,6 +68,7 @@ public class User {
     private NotificationPreferences notificationSettings = NotificationPreferences.builder().build();
 
     private boolean isValidEmail;
+    private boolean hasVoted;
 
     private Date lastLoginDate;
     private Date lastActivityDate;
