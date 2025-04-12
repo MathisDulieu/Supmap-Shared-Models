@@ -2,17 +2,23 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		 xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
+
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.4.4</version>
 		<relativePath/>
 	</parent>
+
 	<groupId>com.novus</groupId>
 	<artifactId>shared-models</artifactId>
-	<version>1.1.7</version>
+	<version>1.1.8</version>
 	<name>shared-models</name>
-	<description>Shared models for Supmap microservices</description>
+	<description>
+		Shared-Models is a core library for the SUPMAP application, providing standardized data models, DTOs, and common entities
+		shared across all microservices. This module ensures data consistency, reduces code duplication, and simplifies
+		cross-service communication.
+	</description>
 
 	<distributionManagement>
 		<repository>
@@ -28,7 +34,9 @@
 	<properties>
 		<java.version>21</java.version>
 	</properties>
+
 	<dependencies>
+		<!-- Spring Boot Core -->
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter</artifactId>
