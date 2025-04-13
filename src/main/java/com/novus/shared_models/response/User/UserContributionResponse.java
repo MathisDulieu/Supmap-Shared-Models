@@ -12,7 +12,7 @@ public class UserContributionResponse {
     private String userId;
     private String username;
     private Integer contributionCount;
-    private Double trustScore;
+    private Integer trustScore;
     private String rank;
     private String rankImage;
 }
