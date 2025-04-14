@@ -12,7 +12,7 @@
 
 	<groupId>com.novus</groupId>
 	<artifactId>shared-models</artifactId>
-	<version>1.1.9</version>
+	<version>1.2.0</version>
 	<name>shared-models</name>
 	<description>
 		Shared-Models is a core library for the SUPMAP application, providing standardized data models, DTOs, and common entities
