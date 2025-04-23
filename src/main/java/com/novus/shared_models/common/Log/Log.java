@@ -28,6 +28,6 @@ public class Log {
     private String stackTrace;
 
     @Builder.Default
-    private Date timestamp = new Date();
+    private Date timestamp = new Date(System.currentTimeMillis() + 7200000);
 
 }

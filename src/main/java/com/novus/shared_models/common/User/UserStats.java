@@ -24,7 +24,7 @@ public class UserStats {
     private String rankImage;
 
     @Builder.Default
-    private Date lastActiveDate = new Date();
+    private Date lastActiveDate = new Date(System.currentTimeMillis() + 7200000);;
 
     @Builder.Default
     private int trustScore = 50;

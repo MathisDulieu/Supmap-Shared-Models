@@ -27,7 +27,7 @@ public class Newsletter {
     private NewsletterType type;
 
     @Builder.Default
-    private Date sentDate = new Date();
+    private Date sentDate = new Date(System.currentTimeMillis() + 7200000);;
 
     private String createdByUserId;
 

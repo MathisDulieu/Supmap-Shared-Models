@@ -24,13 +24,8 @@ public class Alert {
     private GeoPoint location;
     private String roadName;
     private String description;
-
-    @Builder.Default
-    private Date createdAt = new Date();
-
-    @Builder.Default
-    private Date updatedAt = new Date();
-
+    private Date createdAt;
+    private Date updatedAt;
     private Date expiresAt;
     private String reportedByUserId;
 

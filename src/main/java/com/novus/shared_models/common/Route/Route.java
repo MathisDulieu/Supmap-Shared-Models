@@ -27,7 +27,7 @@ public class Route {
     private Integer estimatedDurationInSeconds;
 
     @Builder.Default
-    private Date createdAt = new Date();
+    private Date createdAt = new Date(System.currentTimeMillis() + 7200000);;
 
     private String userId;
 

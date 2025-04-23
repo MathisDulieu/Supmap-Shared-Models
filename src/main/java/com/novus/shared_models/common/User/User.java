@@ -36,10 +36,10 @@ public class User {
     private UserRole role = UserRole.USER;
 
     @Builder.Default
-    private Date createdAt = new Date();
+    private Date createdAt = new Date(System.currentTimeMillis() + 7200000);;
 
     @Builder.Default
-    private Date updatedAt = new Date();
+    private Date updatedAt = new Date(System.currentTimeMillis() + 7200000);;
 
     @Builder.Default
     private UserStatus todayStatus = UserStatus.ACTIVE;

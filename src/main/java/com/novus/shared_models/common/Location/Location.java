@@ -29,12 +29,7 @@ public class Location {
     private String postalCode;
     private String country;
     private LocationType locationType;
-
-    @Builder.Default
-    private Date createdAt = new Date();
-
-    @Builder.Default
-    private Date updatedAt = new Date();
-
+    private Date createdAt;
+    private Date updatedAt;
     private String userId;
 }
